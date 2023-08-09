@@ -1,0 +1,86 @@
+
+
+:root{
+  --corverde: #44833D;
+  --corcinza: #ccc;
+  --corlaranja: #ffa73e;
+  --corlaranja: #ffa73e;
+  --corbranco: #ffff;
+  --corcinzasescuro: #838181;
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+  
+  color: var(--corverde);
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--corcinza) ;
+}
+
+h2{
+  color: var(--corcinzasescuro);
+  border-bottom: 1px solid var(--corcinza);
+  padding: 10px;
+}
+
+ul li{
+  list-style: none;
+}
+
+i{
+  color: var(--corlaranja);
+}
+
+.img-central{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-central img{
+  margin: 10px;
+}
+
+#pilares{
+  display: flex;
+  gap: 1.5rem;
+  margin: 2% 5%;
+  height: 250bpx;
+}
+
+#missao{
+  background-color: var(--corlaranja);
+  border-radius: 5%;
+  padding: 10px;
+}
+
+#visao{
+  background-color: var(--corverde);
+  border-radius: 5%;
+  padding: 10px;
+}
+
+#valores{
+  background-color: var(--corcinzasescuro);
+  border-radius: 5%;
+  padding: 10px;
+}
+
+button{
+ color: #44833D;
+ background-color: #ffff;
+ border: none;
+ padding: 10px;
+ border-radius: 10px;
+ transition: 0.5s;
+
+}
+
+button:hover{
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}

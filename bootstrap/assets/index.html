@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste - Bootstrap</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+      <h1 class="mt-2 text-end text-primary">Bootstrap - Estágio</h1>
+      <hr>
+      <h2 class="text-center ">testando</h2>
+      <br>
+      <div class="row ">
+        <div class=" col-lg-8 col-md-5 col-sm-2 bg-info p-5 rounded">teste 01</div>
+        <div class=" col-lg-7  col-md-4 col-sm-3 bg-secondary p-5 rounded">teste 02</div>
+        <div class=" col-lg- col-md-2 col-sm-2 bg-primary p-5 rounded">teste 03</div>
+      </div>
+
+      <!-- tabela no bootstrap -->
+      <table class="table mt-5 table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Gabriel</td>
+            <td>Otto</td>
+            <td>@gabnnobre </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- botao -->
+      <div class="row">
+
+        <button type="button" class="btn btn-dark text-center mt-3 mb-3" data-bs-toggle="modal" data-bs-target="#modal1">
+          Clique
+        </button>
+      </div>
+
+      <!-- Modal -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Olá, Mundo</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+     Seja bem vindo
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sim</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Não</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+   
+        
+   
+      
+      
+      
+    </div>
+
+
+  
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
